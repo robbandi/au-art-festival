@@ -72,6 +72,9 @@ const InfoSection = ({
                             onMouseOver={e => e.currentTarget.src = BlueDoorOpen}
                             onMouseOut={e => e.currentTarget.src = BlueDoor
                             }
+                            touchstart={d => d.currentTarget.src = BoxCap}
+                            onMouseOut={e => e.currentTarget.src = BlueDoor
+                            }
               />
               </a>
               <img className="doorSet" style ={doorframes} src={RedDoor} draggable='false' width='150px'

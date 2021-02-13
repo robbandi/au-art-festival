@@ -8,9 +8,7 @@ import { Button } from 'react-bootstrap';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
-import SigninPage from './pages/signin';
-import { ReactComponent as ToTheMoon } from './tothemoon-double-rings.svg';
-import LandingImage from './landing-page.png';
+// import SigninPage from './pages/signin';
 // import LandingImageEdition from './landing-page-edition-m.png';
 var NumberFormat = require('react-number-format');
 
@@ -42,7 +40,6 @@ function App() {
           <Router>
       <Switch>
         <Route path='/' component={Home} exact />
-        <Route path='/signin' component={SigninPage} exact />
       </Switch>
     </Router>
 
