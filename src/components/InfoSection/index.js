@@ -52,6 +52,7 @@ const InfoSection = ({
 
   const doorframes = {
     padding: 10,
+    pointerEvents: 0
     // width: 200,
     // top: 2,
     // width:400,
