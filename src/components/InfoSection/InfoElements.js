@@ -10,6 +10,11 @@ export const InfoContainer = styled.div`
     padding: 10px 0;
     height: 1500px;
   }
+
+  @media screen and (max-width: 399px) {
+    padding: 10px 0;
+    height: 2500px;
+  }
 `;
 
 export const doorframes = styled.div`
@@ -34,6 +39,14 @@ bottom: 100px;
 // background: black;
 display: inline-block;
 
+@media screen and (max-width: 768px) {
+  font-size: 2vh;
+}
+
+@media screen and (max-width: 399px) {
+  bottom: 80px;
+  font-size: 1.5vh;
+
 `;
 
 export const HeadieTwo = styled.div`
@@ -44,6 +57,14 @@ font-weight: bolder;
 font-size: 6vh;
 // background: black;
 display: inline-block;
+
+@media screen and (max-width: 768px) {
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 399px) {
+  font-size: 3vh;
+}
 
 `;
 
