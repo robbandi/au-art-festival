@@ -27,8 +27,21 @@ width=400px;
 export const HeadieOne = styled.div`
 color: black;
 font-weight: bolder;
+position: relative;
 font-size: 3vh;
-font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+bottom: 100px;
+// font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+// background: black;
+display: inline-block;
+
+`;
+
+export const HeadieTwo = styled.div`
+color: #334FFF;
+position: relative;
+bottom: 100px;
+font-weight: bolder;
+font-size: 6vh;
 // background: black;
 display: inline-block;
 

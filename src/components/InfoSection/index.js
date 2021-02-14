@@ -15,6 +15,7 @@ import {
   InfoContainer,
   InfoWrapper,
   HeadieOne,
+  HeadieTwo,
   BoxCap,
   Door1,
   Door2,
@@ -66,6 +67,8 @@ const InfoSection = ({
 
   return (
     <>
+    <HeadieTwo>Art Festival 2021</HeadieTwo>
+    <div></div>
             <HeadieOne>
         Choose the Room you would like to Enter.
         </HeadieOne>
@@ -78,19 +81,27 @@ const InfoSection = ({
                             }
               />
               </a>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>
               <img style ={doorframes} src={RedDoor} draggable='false' width='180px'
                             onMouseOver={e => e.currentTarget.src = RedDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = RedDoor}
                            />
+                           </a>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>            
               <img style ={doorframes} src={GreenDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = GreenDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = GreenDoor}/>
+                                          </a>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>                          
               <img style ={doorframes} src={OrangeDoor} draggable='false' width='180px'                   
                        onMouseOver={e => e.currentTarget.src = OrangeDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = OrangeDoor}/>
+                            </a>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>            
               <img style ={doorframes} src={PurpleDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = PurpleDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
+                                          </a>
               </InfoWrapper>
           </InfoContainer>
     </>
