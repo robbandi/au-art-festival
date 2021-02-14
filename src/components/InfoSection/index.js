@@ -1,15 +1,15 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import BlueDoor from './blueDoor.png';
-import RedDoor from './redDoor.png';
-import GreenDoor from './greenDoor.png';
-import OrangeDoor from './orangeDoor.png';
-import PurpleDoor from './purpleDoor.png';
-import PurpleDoorOpen from './purpleDoorOpen.png';
-import OrangeDoorOpen from './orangeDoorOpen.png';
-import GreenDoorOpen from './greenDoorOpen.png';
-import RedDoorOpen from './redDoorOpen.png';
-import BlueDoorOpen from './blueDoorOpen.png';
+import BlueDoor from './blueDoor.JPEG';
+import RedDoor from './redDoor.JPEG';
+import GreenDoor from './greenDoor.JPEG';
+import OrangeDoor from './orangeDoor.JPEG';
+import PurpleDoor from './purpleDoor.JPEG';
+import PurpleDoorOpen from './purpleDoorOpen.JPEG';
+import OrangeDoorOpen from './orangeDoorOpen.JPEG';
+import GreenDoorOpen from './greenDoorOpen.JPEG';
+import RedDoorOpen from './redDoorOpen.JPEG';
+import BlueDoorOpen from './blueDoorOpen.JPEG';
 
 import {
   InfoContainer,
@@ -70,7 +70,7 @@ const InfoSection = ({
     <HeadieTwo>Art Festival 2021</HeadieTwo>
     <div></div>
             <HeadieOne>
-        Choose the Room you would like to Enter.
+        Choose the Room you would like to Enter!
         </HeadieOne>
       <InfoContainer>
         <InfoWrapper>
