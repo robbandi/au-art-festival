@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? 'white' : 'white')};
-  height: 80px;
+  height: 100px;
   margin-top: -80px;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ user-select: none;
 -webkit-user-drag: none;
 -webkit-user-select: none;
 -ms-user-select: none;
-  width: 200vh;
+  width: 20vh;
   height: 20vh;
   justify-self: flex-start;
   cursor: pointer;
@@ -52,7 +52,7 @@ user-select: none;
 
 export const logo = styled.div`
   color: black;
-  width: 200px;
+  width: 20px;
   draggable: false;
   user-drag: none; 
   user-select: none;

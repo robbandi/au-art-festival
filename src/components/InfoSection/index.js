@@ -14,7 +14,7 @@ import BlueDoorOpen from './blueDoorOpen.png';
 import {
   InfoContainer,
   InfoWrapper,
-  Box,
+  HeadieOne,
   BoxCap,
   Door1,
   Door2,
@@ -25,6 +25,7 @@ import {
 } from './InfoElements';
 import { colors, fade, Grid } from '@material-ui/core';
 import { red } from '@material-ui/core/colors';
+import { FaBlackTie } from 'react-icons/fa';
 
 // function Ev(e) {
 //   onMouseOver={BlueDoorOpen}
@@ -53,7 +54,6 @@ const InfoSection = ({
   const doorframes = {
     padding: 10,
     pointerEvents: 0
-    // width: 200,
     // top: 2,
     // width:400,
     // height:300,
@@ -66,29 +66,29 @@ const InfoSection = ({
 
   return (
     <>
+            <HeadieOne>
+        Choose the Room you would like to Enter.
+        </HeadieOne>
       <InfoContainer>
         <InfoWrapper>
-      <a href='https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp'>
-              <img style ={doorframes} src={BlueDoor} draggable='false' width='150px'
+      <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>
+              <img style ={doorframes} src={BlueDoor} draggable='false' width='180px'
                             onMouseOver={e => e.currentTarget.src = BlueDoorOpen}
-                            onMouseOut={e => e.currentTarget.src = BlueDoor
-                            }
-                            touchstart={d => d.currentTarget.src = BoxCap}
                             onMouseOut={e => e.currentTarget.src = BlueDoor
                             }
               />
               </a>
-              <img className="doorSet" style ={doorframes} src={RedDoor} draggable='false' width='150px'
+              <img style ={doorframes} src={RedDoor} draggable='false' width='180px'
                             onMouseOver={e => e.currentTarget.src = RedDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = RedDoor}
                            />
-              <img style ={doorframes} src={GreenDoor} draggable='false' width='150px'
+              <img style ={doorframes} src={GreenDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = GreenDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = GreenDoor}/>
-              <img style ={doorframes} src={OrangeDoor} draggable='false' width='150px'                   
+              <img style ={doorframes} src={OrangeDoor} draggable='false' width='180px'                   
                        onMouseOver={e => e.currentTarget.src = OrangeDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = OrangeDoor}/>
-              <img style ={doorframes} src={PurpleDoor} draggable='false' width='150px'
+              <img style ={doorframes} src={PurpleDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = PurpleDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
               </InfoWrapper>

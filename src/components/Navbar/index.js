@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
             <MobileIcon onClick={toggle}>
               <FaCircle size={16}/>
             </MobileIcon>
-              <NavMenu>
+              {/* <NavMenu>
                <NavAnalytics>
               <NavItem>
                 <NavLinks
@@ -79,7 +79,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
                 </NavItem>
               </NavAnalytics>
-              </NavMenu>
+              </NavMenu> */}
 
               {/* <NavItem>
                 <NavLinks

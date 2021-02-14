@@ -2,12 +2,36 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;  
+
   // background-repeat: no-repeat;
   // background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 10px 0;
+    height: 1500px;
   }
+`;
+
+export const doorframes = styled.div`
+padding: 10;
+pointerEvents: 0;
+draggable:false;
+width=400px;
+
+@media screen and (max-width: 768px) {
+  padding: 10px 0;
+  width: 130px;
+}
+`;
+
+export const HeadieOne = styled.div`
+color: black;
+font-weight: bolder;
+font-size: 3vh;
+font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+// background: black;
+display: inline-block;
+
 `;
 
 export const Box = styled.figure`
@@ -36,6 +60,12 @@ export const InfoWrapper = styled.div`
   margin-left: auto;
   padding: 0 auto;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    // height: 2060px;
+    // max-width: 10px;
+    // max-height: 86px;
+  }
 `;
 
 // export const button = styled.div`
@@ -56,8 +86,9 @@ export const InfoRow = styled.div`
   }
 `;
 
-export const doorSet = styled.image`
-  // margin-bottom: 15px;
+export const imgDia = styled.img`
+  margin-bottom: 15px;
+  width: 243px;
   // padding: 0 15px;
   // grid-area: col1;
 `;
