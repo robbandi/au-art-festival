@@ -74,25 +74,25 @@ const InfoSection = ({
         </HeadieOne>
       <InfoContainer>
         <InfoWrapper>
-      <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>
+      <a href='https://users.aber.ac.uk/hal34/SU%20Website/performance/performance.html?fbclid=IwAR2sMLPDDKiGWk7PTYMAUTj1NG14HewEPDKJD--ghYvdqyGVPCPY6bfiMZQ'>
               <img style ={doorframes} src={BlueDoor} draggable='false' width='180px'
                             onMouseOver={e => e.currentTarget.src = BlueDoorOpen}
                             onMouseOut={e => e.currentTarget.src = BlueDoor
                             }
               />
               </a>
-              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/written/written.html'>
               <img style ={doorframes} src={RedDoor} draggable='false' width='180px'
                             onMouseOver={e => e.currentTarget.src = RedDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = RedDoor}
                            />
                            </a>
-              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>            
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/photography/photography.html?fbclid=IwAR1HhfPmWKhWY1aw_6JjiF3XAvepyAwqLyqFWhZYawI60rkUNs2PaOj-QiY'>            
               <img style ={doorframes} src={GreenDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = GreenDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = GreenDoor}/>
                                           </a>
-              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>                          
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/music/music.html?fbclid=IwAR1GKK0vlhWFz0wn_cNrzTgOK3N9txCBI6yD0sG7No40SHKsSkkGmk2p_PM'>                          
               <img style ={doorframes} src={OrangeDoor} draggable='false' width='180px'                   
                        onMouseOver={e => e.currentTarget.src = OrangeDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = OrangeDoor}/>

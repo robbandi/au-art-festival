@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-  color: #fff;  
+  color: black;
+  background: #FFF9EF;  
 
   // background-repeat: no-repeat;
   // background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
@@ -32,6 +33,7 @@ width=400px;
 export const HeadieOne = styled.div`
 color: black;
 font-weight: bolder;
+background: #FFF9EF;  
 position: relative;
 font-size: 3vh;
 bottom: 100px;
@@ -51,6 +53,7 @@ display: inline-block;
 
 export const HeadieTwo = styled.div`
 color: #334FFF;
+background: #FFF9EF;  
 position: relative;
 bottom: 100px;
 font-weight: bolder;
@@ -70,7 +73,6 @@ display: inline-block;
 
 export const Box = styled.figure`
 color: black;
-// background: red;
 display:inline-block;
 bottom: 200;
 // visibility: hidden;
@@ -87,6 +89,7 @@ bottom: 200;
 export const InfoWrapper = styled.div`
   // display: grid;
   z-index: 1;
+  background: #FFF9EF;  
   height: 860px;
   // width: 100%;
   // max-width: 1100px;
@@ -157,6 +160,7 @@ export const TopLine = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
+  background: #FFF9EF;  
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
