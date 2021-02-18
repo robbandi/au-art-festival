@@ -1,3 +1,2 @@
-export const section = styled.section`
-background: #FFF9EF;
-`;
+// export const section = styled.section`
+// `;

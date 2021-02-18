@@ -10,6 +10,7 @@ import OrangeDoorOpen from './orangeDoorOpen.JPEG';
 import GreenDoorOpen from './greenDoorOpen.JPEG';
 import RedDoorOpen from './redDoorOpen.JPEG';
 import BlueDoorOpen from './blueDoorOpen.JPEG';
+import BackImg from './backgorudn.jpg';
 
 import {
   InfoContainer,
@@ -67,6 +68,7 @@ const InfoSection = ({
 
   return (
     <>
+    <div  styles={{ backgroundImage:`url(${BackImg})` }}></div>
     <HeadieTwo>Art Festival 2021</HeadieTwo>
     <div></div>
             <HeadieOne>
@@ -81,7 +83,7 @@ const InfoSection = ({
                             }
               />
               </a>
-              <a href='https://users.aber.ac.uk/hal34/SU%20Website/written/written.html'>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/written/BoysWillBeBoys.html?fbclid=IwAR1YFl9nINZsNSTdatB-wAZ9ScQN89rwCVivOlOF3y2EHHv3ZqFtkjTM0mw'>
               <img style ={doorframes} src={RedDoor} draggable='false' width='180px'
                             onMouseOver={e => e.currentTarget.src = RedDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = RedDoor}
@@ -97,7 +99,7 @@ const InfoSection = ({
                        onMouseOver={e => e.currentTarget.src = OrangeDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = OrangeDoor}/>
                             </a>
-              <a href='https://users.aber.ac.uk/hal34/SU%20Website/test2.html'>            
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/digital/digital.html'>            
               <img style ={doorframes} src={PurpleDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = PurpleDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
