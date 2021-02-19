@@ -107,7 +107,7 @@ const InfoSection = ({
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
                                           </a>
                <a href='https://users.aber.ac.uk/hal34/SU%20Website/images_room/image.html?fbclid=IwAR353u6vK_ZG_LVTkCEPOLJf8n3DbULuiuqZkoWAJdG2uUwqwrjSq54BvsQ'>            
-              <img style ={doorframes} src={TurqDoor} draggable='false' width='180px'
+              <img style ={doorframes} src={TurqDoor} draggable='false' width='220px'
                                           onMouseOver={e => e.currentTarget.src = TurqDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = TurqDoor}/>
                                           </a>
