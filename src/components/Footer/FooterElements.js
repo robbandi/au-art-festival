@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-  background-color: #ececec;
+  // background-color: #ececec;
   background-color: #333;
   // background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg");
 `;
@@ -49,7 +49,7 @@ export const FooterLinkItems = styled.div`
   text-align: left;
   width: 130px;
   box-sizing: border-box;
-  color: black;
+  color: white;
 
   @media screen and (max-width: 420px) {
     margin: 0;
@@ -61,12 +61,12 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
   font-size: 14px;
   margin-bottom: 16px;
-color: black;
+  color: white;
 
 `;
 
 export const FooterLink = styled(Link)`
-  color: black;
+color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
@@ -96,7 +96,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-color: black;
+color: white;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -108,7 +108,7 @@ color: black;
 `;
 
 export const WebsiteRights = styled.small`
-color: black;
+color: white;
   margin-bottom: 16px;
 `;
 
