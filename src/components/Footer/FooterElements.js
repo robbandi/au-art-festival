@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
   background-color: #ececec;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg");
+  background-color: #333;
+  // background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg");
 `;
 
 export const FooterWrap = styled.div`
