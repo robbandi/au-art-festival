@@ -10,6 +10,8 @@ import OrangeDoorOpen from './orangeDoorOpen.JPEG';
 import GreenDoorOpen from './greenDoorOpen.JPEG';
 import RedDoorOpen from './redDoorOpen.JPEG';
 import BlueDoorOpen from './blueDoorOpen.JPEG';
+import TurqDoorOpen from './turqDoorOpen.png';
+import TurqDoor from './turqDoor.png';
 import BackImg from './backgorudn.jpg';
 
 import {
@@ -103,6 +105,11 @@ const InfoSection = ({
               <img style ={doorframes} src={PurpleDoor} draggable='false' width='180px'
                                           onMouseOver={e => e.currentTarget.src = PurpleDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
+                                          </a>
+               <a href='https://users.aber.ac.uk/hal34/SU%20Website/images_room/image.html?fbclid=IwAR353u6vK_ZG_LVTkCEPOLJf8n3DbULuiuqZkoWAJdG2uUwqwrjSq54BvsQ'>            
+              <img style ={doorframes} src={TurqDoor} draggable='false' width='180px'
+                                          onMouseOver={e => e.currentTarget.src = TurqDoorOpen} 
+                                          onMouseOut={e => e.currentTarget.src = TurqDoor}/>
                                           </a>
               </InfoWrapper>
           </InfoContainer>
