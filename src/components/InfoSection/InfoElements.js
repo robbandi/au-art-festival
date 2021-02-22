@@ -11,9 +11,14 @@ export const InfoContainer = styled.div`
   // background-repeat: no-repeat;
   // background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
+  @media screen and (max-width: 1454px) {
+    padding: 10px 0;
+    height: 1150px;
+  }
+
   @media screen and (max-width: 1220px) {
     padding: 10px 0;
-    height: 600px;
+    height: 1150px;
   }
 
   @media screen and (max-width: 1214px) {
@@ -157,7 +162,7 @@ export const Doorman = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 734px) {
-    height: 900px;
+    height: 1000px;
     // max-width: 10px;
     // max-height: 86px;
   }

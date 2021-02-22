@@ -15,7 +15,7 @@ button {
     width: 80%;
 }
 
-#green:hover, #red:hover, #blue:hover, #orange:hover, #purple:hover {
+#green:hover, #red:hover, #blue:hover, #orange:hover, #purple:hover, #burgundy:hover {
     background-color: black;
     transition: 0.35s;
 }
@@ -54,6 +54,13 @@ button {
     width: 80%;
 }
 
+#burgundy {
+    background-color: #b30053;
+    display: none;
+    padding: 28px;
+    width: 80%;
+}
+
 .mQueries {
     text-align: center;
     margin: 0 auto;
@@ -72,7 +79,7 @@ button {
     }
 }
   @media screen and (max-width: 734px) {
-  #green, #red, #blue, #orange, #purple {
+  #green, #red, #blue, #orange, #purple, #burgundy {
     display: block;
     visibility: visible;
     position: absolute; 

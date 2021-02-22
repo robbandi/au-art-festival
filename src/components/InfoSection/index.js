@@ -1,17 +1,17 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import BlueDoor from './blueDoor.JPEG';
-import RedDoor from './redDoor.JPEG';
-import GreenDoor from './greenDoor.JPEG';
-import OrangeDoor from './orangeDoor.JPEG';
-import PurpleDoor from './purpleDoor.JPEG';
-import PurpleDoorOpen from './purpleDoorOpen.JPEG';
-import OrangeDoorOpen from './orangeDoorOpen.JPEG';
-import GreenDoorOpen from './greenDoorOpen.JPEG';
-import RedDoorOpen from './redDoorOpen.JPEG';
-import BlueDoorOpen from './blueDoorOpen.JPEG';
-import TurqDoorOpen from './turqDoorOpen.png';
-import TurqDoor from './turqDoor.png';
+import BlueDoor from './blueDoor.gif';
+import RedDoor from './redDoor.gif';
+import GreenDoor from './greenDoor.gif';
+import OrangeDoor from './orangeDoor.gif';
+import PurpleDoor from './purpleDoor.gif';
+import PurpleDoorOpen from './purpleDoorOpen.gif';
+import OrangeDoorOpen from './orangeDoorOpen.gif';
+import GreenDoorOpen from './greenDoorOpen.gif';
+import RedDoorOpen from './redDoorOpen.gif';
+import BlueDoorOpen from './blueDoorOpen.gif';
+import BurgundyDoorOpen from './burgundyDoorOpen.gif';
+import BurgundyDoor from './burgundyDoor.gif';
 import BackImg from './backgorudn.jpg';
 import './style.css'
 
@@ -31,7 +31,7 @@ import {
 } from './InfoElements';
 import { colors, fade, Grid } from '@material-ui/core';
 import { red } from '@material-ui/core/colors';
-import { FaBlackTie } from 'react-icons/fa';
+import { FaBlackTie, FaBurn } from 'react-icons/fa';
 
 // function Ev(e) {
 //   onMouseOver={BlueDoorOpen}
@@ -126,6 +126,14 @@ const InfoSection = ({
         Digital
         </button> 
         </a>
+        <div class="divider"/>
+          <a href="https://users.aber.ac.uk/hal34/SU%20Website/craft/craft.html">
+        <button id="burgundy">
+        Grefft
+        <br></br>
+        Craft
+        </button> 
+        </a>
         {/* </div> */}
         </Doorman>
       <InfoContainer>
@@ -158,12 +166,11 @@ const InfoSection = ({
                                           onMouseOver={e => e.currentTarget.src = PurpleDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
                                           </a>
-                                          {/* IMAGES PAGE - SILENCED */}
-               {/* <a href='https://users.aber.ac.uk/hal34/SU%20Website/images_room/image.html?fbclid=IwAR353u6vK_ZG_LVTkCEPOLJf8n3DbULuiuqZkoWAJdG2uUwqwrjSq54BvsQ'>            
-              <img style ={doorframes} src={TurqDoor} draggable='false' width='220px'
-                                          onMouseOver={e => e.currentTarget.src = TurqDoorOpen} 
-                                          onMouseOut={e => e.currentTarget.src = TurqDoor}/>
-                                          </a> */}
+               <a href='https://users.aber.ac.uk/hal34/SU%20Website/craft/craft.html'>            
+              <img style ={doorframes} src={BurgundyDoor} draggable='false' width='220px'
+                                          onMouseOver={e => e.currentTarget.src = BurgundyDoorOpen} 
+                                          onMouseOut={e => e.currentTarget.src = BurgundyDoor}/>
+                                          </a>
               </InfoWrapper>
           </InfoContainer>
     </>
