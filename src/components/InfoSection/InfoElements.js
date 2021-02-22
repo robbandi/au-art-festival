@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: black;
+  // visibilty: hidden;
   // background: #FFF9EF; 
   background-image: url(./backgorudn.jpg); 
-  height: 700px;
+  height: 600px;
 
   // background-repeat: no-repeat;
   // background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
@@ -24,20 +25,32 @@ export const InfoContainer = styled.div`
     height: 1200px;
   }
 
-  @media screen and (max-width: 733px) {
-    padding: 10px 0;
-    height: 1700px;
+  @media screen and (max-width: 734px) {
+    opacity: 0%;
+    height: 1px;
   }
 
-  @media screen and (max-width: 493px) {
-    padding: 10px 0;
-    height: 2900px;
-  }
+  // @media screen and (max-width: 733px) {
+  //   padding: 10px 0;
+  //   height: 1700px;
+  // }
+  
 
-  @media screen and (max-width: 399px) {
-    padding: 10px 0;
-    height: 200px;
-  }
+  // @media screen and (max-width: 493px) {
+  //   padding: 10px 0;
+  //   height: 2900px;
+  // }
+
+  // @media screen and (max-width: 399px) {
+  //   padding: 10px 0;
+  //   height: 200px;
+  // }
+`;
+
+export const mQueries = styled.div`
+height: 200px;
+width: 200px;
+position: relative;
 `;
 
 export const doorframes = styled.div`
@@ -54,6 +67,7 @@ width:400px;
 
 export const HeadieOne = styled.div`
 color: black;
+opacity: 100%;
 font-weight: bolder;
 // background: #FFF9EF;  
 position: relative;
@@ -63,7 +77,7 @@ font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 // background: black;
 display: inline-block;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 734px) {
   font-size: 1.5vh;
 }
 
@@ -75,6 +89,7 @@ display: inline-block;
 
 export const HeadieTwo = styled.div`
 color: #f35d6d;
+opacity: 100%;
 // background: #FFF9EF;  
 position: relative;
 bottom: 100px;
@@ -84,7 +99,7 @@ font-size: 6vh;
 display: inline-block;
 font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 734px) {
   font-size: 3vh;
 }
 
@@ -113,7 +128,7 @@ export const InfoWrapper = styled.div`
   // display: grid;
   z-index: 1;
   // background: #FFF9EF;  
-  height: 860px;
+  height: 660px;
   // width: 100%;
   // max-width: 1100px;
   margin-right: auto;
@@ -123,6 +138,24 @@ export const InfoWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     // height: 2060px;
+    // max-width: 10px;
+    // max-height: 86px;
+  }
+`;
+
+export const Doorman = styled.div`
+  // z-index: 10;
+  // background: #FFF9EF;  
+  height: 60px;
+  // width: 100%;
+  // max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 auto;
+  justify-content: center;
+
+  @media screen and (max-width: 733px) {
+    height: 900px;
     // max-width: 10px;
     // max-height: 86px;
   }

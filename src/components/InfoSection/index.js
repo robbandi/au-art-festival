@@ -13,13 +13,15 @@ import BlueDoorOpen from './blueDoorOpen.JPEG';
 import TurqDoorOpen from './turqDoorOpen.png';
 import TurqDoor from './turqDoor.png';
 import BackImg from './backgorudn.jpg';
+import './style.css'
 
 import {
   InfoContainer,
   InfoWrapper,
   HeadieOne,
   HeadieTwo,
-  BoxCap,
+  mQueries,
+  Doorman,
   Door1,
   Door2,
   Door3,
@@ -83,6 +85,49 @@ const InfoSection = ({
         <HeadieOne>
         Dewiswch yr ystafell yr hoffech chi fynd i mewn iddi!
         </HeadieOne>
+        <Doorman>
+        {/* <div className="mQueries"> */}
+        <a href="https://users.aber.ac.uk/hal34/SU%20Website/performance/performance.html?fbclid=IwAR2sMLPDDKiGWk7PTYMAUTj1NG14HewEPDKJD--ghYvdqyGVPCPY6bfiMZQ">
+        <button id='blue'>
+        Perfformiad
+          <br></br>
+          Performance
+          </button> 
+          </a>
+          <div class="divider"/>
+          <a href="https://users.aber.ac.uk/hal34/SU%20Website/written/written.html">
+        <button id="red">
+        Ysgrifenedig
+        <br></br>
+        Written
+        </button> 
+        </a>
+        <div class="divider"/>
+        <a href="https://users.aber.ac.uk/hal34/SU%20Website/photography/photography.html?fbclid=IwAR1HhfPmWKhWY1aw_6JjiF3XAvepyAwqLyqFWhZYawI60rkUNs2PaOj-QiY">
+        <button id="green">
+        Ffotograffiaeth
+        <br></br>
+        Photography
+          </button> 
+          </a>
+          <div class="divider"/>
+          <a href="https://users.aber.ac.uk/hal34/SU%20Website/music/music.html?fbclid=IwAR1GKK0vlhWFz0wn_cNrzTgOK3N9txCBI6yD0sG7No40SHKsSkkGmk2p_PM">
+        <button id="orange">
+        Cerddoriaeth
+        <br></br>
+        Music
+          </button> 
+          </a>
+          <div class="divider"/>
+          <a href="https://users.aber.ac.uk/hal34/SU%20Website/digital/digital.html">
+        <button id="purple">
+        Digidol
+        <br></br>
+        Digital
+        </button> 
+        </a>
+        {/* </div> */}
+        </Doorman>
       <InfoContainer>
         <InfoWrapper>
       <a href='https://users.aber.ac.uk/hal34/SU%20Website/performance/performance.html?fbclid=IwAR2sMLPDDKiGWk7PTYMAUTj1NG14HewEPDKJD--ghYvdqyGVPCPY6bfiMZQ'>

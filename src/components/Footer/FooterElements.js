@@ -5,6 +5,11 @@ export const FooterContainer = styled.footer`
   // background-color: #ececec;
   background-color: #333;
   // background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg");
+
+  @media screen and (max-width: 734px) {
+    height: 100%;
+
+  }
 `;
 
 export const FooterWrap = styled.div`
