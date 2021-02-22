@@ -52,7 +52,6 @@ user-select: none;
   @media screen and (max-width: 734px) {
     width: 12vh;
     height: 19.5vh;
-    margin-left: 30px;
   }
 `;
 
