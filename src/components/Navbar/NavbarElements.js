@@ -53,6 +53,12 @@ user-select: none;
     width: 12vh;
     height: 19.5vh;
   }
+
+  @media screen and (max-width: 375px) {
+    width: 14vh;
+    height: 24.25vh;
+    margin-left: 3px;
+  }
 `;
 
 export const NavLogoSU = styled(LinkR)`
@@ -79,6 +85,12 @@ text-decoration: none;
   width: 12vh;
   height: 20.5vh;
 }
+
+@media screen and (max-width: 375px) {
+  width: 16vh;
+  height: 26.5vh;
+}
+
 `;
 
 export const logo = styled.div`
