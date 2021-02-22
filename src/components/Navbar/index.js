@@ -40,10 +40,10 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo src={logo} onClick={toggleHome} to='/'>
-              <img src={logo} draggable='false' width='150px'/>
+              <img src={logo} draggable='false' width='140px'/>
               </NavLogo>
               <NavLogoSU src={logo, logosu} onClick={toggleHome} to='/'>
-              <img src={logosu} draggable='false' width='135px' />
+              <img src={logosu} draggable='false' width='120px' />
               </NavLogoSU>
           </NavbarContainer>
         </Nav>

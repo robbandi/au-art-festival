@@ -48,6 +48,12 @@ user-select: none;
   margin-left: 30px;
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 734px) {
+    width: 12vh;
+    height: 19.5vh;
+    margin-left: 30px;
+  }
 `;
 
 export const NavLogoSU = styled(LinkR)`
@@ -69,6 +75,11 @@ align-items: center;
 margin-left: -24px;
 font-weight: bold;
 text-decoration: none;
+
+@media screen and (max-width: 734px) {
+  width: 12vh;
+  height: 20.5vh;
+}
 `;
 
 export const logo = styled.div`
