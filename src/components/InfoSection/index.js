@@ -73,17 +73,17 @@ const InfoSection = ({
   return (
     <>
     <div  styles={{ backgroundImage:`url(${BackImg})` }}></div>
-    <HeadieTwo>Arts Festival 2021</HeadieTwo>
-    <br></br>
     <HeadieTwo>Gŵyl y Celfyddydau 2021</HeadieTwo>
+    <br></br>
+    <HeadieTwo>Arts Festival 2021</HeadieTwo>
     <div></div>
             <HeadieOne>
             <br></br>
-        Choose the Room you would like to Enter!
+        Dewiswch yr ystafell yr hoffech chi fynd i mewn iddi!
         </HeadieOne>
         <br></br>
         <HeadieOne>
-        Dewiswch yr ystafell yr hoffech chi fynd i mewn iddi!
+        Choose the Room you would like to Enter!
         </HeadieOne>
         <Doorman>
         {/* <div className="mQueries"> */}
