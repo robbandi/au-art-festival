@@ -71,10 +71,17 @@ const InfoSection = ({
   return (
     <>
     <div  styles={{ backgroundImage:`url(${BackImg})` }}></div>
-    <HeadieTwo>Art Festival 2021</HeadieTwo>
+    <HeadieTwo>Arts Festival 2021</HeadieTwo>
+    <br></br>
+    <HeadieTwo>Gŵyl y Celfyddydau 2021</HeadieTwo>
     <div></div>
             <HeadieOne>
+            <br></br>
         Choose the Room you would like to Enter!
+        </HeadieOne>
+        <br></br>
+        <HeadieOne>
+        Dewiswch yr ystafell yr hoffech chi fynd i mewn iddi!
         </HeadieOne>
       <InfoContainer>
         <InfoWrapper>
@@ -85,7 +92,7 @@ const InfoSection = ({
                             }
               />
               </a>
-              <a href='https://users.aber.ac.uk/hal34/SU%20Website/written/BoysWillBeBoys.html?fbclid=IwAR1YFl9nINZsNSTdatB-wAZ9ScQN89rwCVivOlOF3y2EHHv3ZqFtkjTM0mw'>
+              <a href='https://users.aber.ac.uk/hal34/SU%20Website/written/written.html'>
               <img style ={doorframes} src={RedDoor} draggable='false' width='220px'
                             onMouseOver={e => e.currentTarget.src = RedDoorOpen} 
                             onMouseOut={e => e.currentTarget.src = RedDoor}
@@ -106,11 +113,12 @@ const InfoSection = ({
                                           onMouseOver={e => e.currentTarget.src = PurpleDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = PurpleDoor}/>
                                           </a>
-               <a href='https://users.aber.ac.uk/hal34/SU%20Website/images_room/image.html?fbclid=IwAR353u6vK_ZG_LVTkCEPOLJf8n3DbULuiuqZkoWAJdG2uUwqwrjSq54BvsQ'>            
+                                          {/* IMAGES PAGE - SILENCED */}
+               {/* <a href='https://users.aber.ac.uk/hal34/SU%20Website/images_room/image.html?fbclid=IwAR353u6vK_ZG_LVTkCEPOLJf8n3DbULuiuqZkoWAJdG2uUwqwrjSq54BvsQ'>            
               <img style ={doorframes} src={TurqDoor} draggable='false' width='220px'
                                           onMouseOver={e => e.currentTarget.src = TurqDoorOpen} 
                                           onMouseOut={e => e.currentTarget.src = TurqDoor}/>
-                                          </a>
+                                          </a> */}
               </InfoWrapper>
           </InfoContainer>
     </>

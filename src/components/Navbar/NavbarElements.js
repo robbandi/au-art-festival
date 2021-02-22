@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  // background: ${({ scrollNav }) => (scrollNav ? 'white' : 'bwhityeack')};
+  // background: ${({ scrollNav }) => (scrollNav ? 'black' : 'black')};
   height: 100px;
   margin-top: -80px;
   display: flex;
@@ -42,12 +42,33 @@ user-select: none;
   height: 20vh;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 30px;
   font-weight: bold;
   text-decoration: none;
+`;
+
+export const NavLogoSU = styled(LinkR)`
+  color: black;
+  draggable: false;
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+width: 14vh;
+height: 21.5vh;
+justify-self: flex-start;
+cursor: pointer;
+// font-size: 1.5rem;
+display: flex;
+align-items: center;
+margin-left: 2px;
+font-weight: bold;
+text-decoration: none;
 `;
 
 export const logo = styled.div`

@@ -3,17 +3,12 @@ import { FaCircle } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 import logo from './artfest21.png';
+import logosu from './auSuLogo.png';
 import {
-  MobileIcon,
   Nav,
   NavbarContainer,
-  NavItem,
-  NavLinks,
   NavLogo,
-  NavMenu,
-  NavAnalytics,
-  NavBtn,
-  NavBtnLink
+  NavLogoSU
 } from './NavbarElements';
 
 // const Fill = {
@@ -46,69 +41,10 @@ const Navbar = ({ toggle }) => {
           <NavbarContainer>
             <NavLogo src={logo} onClick={toggleHome} to='/'>
               <img src={logo} draggable='false' width='150px'/>
-            </NavLogo>
-            <MobileIcon onClick={toggle}>
-              <FaCircle size={16}/>
-            </MobileIcon>
-              {/* <NavMenu>
-               <NavAnalytics>
-              <NavItem>
-                <NavLinks
-                  to='about'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Analytics
-                </NavLinks>
-                </NavItem>
-              </NavAnalytics>
-              <NavAnalytics>
-              <NavItem>
-                <NavLinks
-                  to='about'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  About
-                </NavLinks>
-                </NavItem>
-              </NavAnalytics>
-              </NavMenu> */}
-
-              {/* <NavItem>
-                <NavLinks
-                  to='services'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Services
-                </NavLinks>
-              </NavItem> */}
-              {/* <NavItem> */}
-                {/* <NavLinks
-                  to='signup'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Sign Up
-                </NavLinks>
-              </NavItem> */}
-            {/* </NavMenu> */}
-            {/* <NavBtn>
-              <NavBtnLink to='/signin'>an</NavBtnLink>
-            </NavBtn> */}
+              </NavLogo>
+              <NavLogoSU src={logo, logosu} onClick={toggleHome} to='/'>
+              <img src={logosu} draggable='false' width='135px' />
+              </NavLogoSU>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

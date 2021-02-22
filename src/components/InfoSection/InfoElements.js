@@ -4,18 +4,39 @@ export const InfoContainer = styled.div`
   color: black;
   // background: #FFF9EF; 
   background-image: url(./backgorudn.jpg); 
+  height: 700px;
 
   // background-repeat: no-repeat;
   // background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
+  @media screen and (max-width: 1220px) {
+    padding: 10px 0;
+    height: 600px;
+  }
+
+  @media screen and (max-width: 1214px) {
+    padding: 10px 0;
+    height: 1200px;
+  }
+
   @media screen and (max-width: 768px) {
     padding: 10px 0;
-    height: 1500px;
+    height: 1200px;
+  }
+
+  @media screen and (max-width: 733px) {
+    padding: 10px 0;
+    height: 1700px;
+  }
+
+  @media screen and (max-width: 493px) {
+    padding: 10px 0;
+    height: 2900px;
   }
 
   @media screen and (max-width: 399px) {
     padding: 10px 0;
-    height: 2500px;
+    height: 200px;
   }
 `;
 
@@ -23,7 +44,7 @@ export const doorframes = styled.div`
 padding: 10;
 pointerEvents: 0;
 draggable:false;
-width=400px;
+width:400px;
 
 @media screen and (max-width: 768px) {
   padding: 10px 0;
@@ -38,12 +59,12 @@ font-weight: bolder;
 position: relative;
 font-size: 3vh;
 bottom: 100px;
-// font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 // background: black;
 display: inline-block;
 
 @media screen and (max-width: 768px) {
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
 @media screen and (max-width: 399px) {
@@ -53,7 +74,7 @@ display: inline-block;
 `;
 
 export const HeadieTwo = styled.div`
-color: #334FFF;
+color: #f35d6d;
 // background: #FFF9EF;  
 position: relative;
 bottom: 100px;
@@ -61,6 +82,7 @@ font-weight: bolder;
 font-size: 6vh;
 // background: black;
 display: inline-block;
+font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 @media screen and (max-width: 768px) {
   font-size: 3vh;
