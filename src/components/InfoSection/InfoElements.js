@@ -4,6 +4,7 @@ export const InfoContainer = styled.div`
   color: black;
   // visibilty: hidden;
   // background: #FFF9EF; 
+  display: block;
   background-image: url(./backgorudn.jpg); 
   height: 600px;
 
@@ -27,6 +28,7 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: 734px) {
     opacity: 0%;
+    display: none;
     height: 1px;
   }
 
@@ -154,7 +156,7 @@ export const Doorman = styled.div`
   padding: 0 auto;
   justify-content: center;
 
-  @media screen and (max-width: 733px) {
+  @media screen and (max-width: 734px) {
     height: 900px;
     // max-width: 10px;
     // max-height: 86px;
